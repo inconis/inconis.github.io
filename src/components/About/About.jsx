@@ -56,7 +56,15 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      Linkedin Profile
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--resume"
+                      href="/blog"
+                    >
+                      Read my Blog
                     </a>
                   </span>
                 )}

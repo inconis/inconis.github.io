@@ -9,10 +9,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is',
+  name: 'Riccardo',
+  subtitle: "I'm a management engineering student",
+  cta: 'Read more',
 };
 
 // ABOUT DATA
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'www.linkedin.com/in/inconisriccardo', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -35,6 +35,7 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
+
   {
     id: uuidv1(),
     img: 'project.jpg',
@@ -57,9 +58,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would you like to contact me? Awesome!',
+  btn: 'Write me an e-mail',
+  email: 'riccardo.ttinconis@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,27 +69,32 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/inconisriccardo',
     },
     {
       id: uuidv1(),
-      name: 'codepen',
-      url: '',
+      name: 'facebook',
+      url: 'https://www.facebook.com/inconisriccardo',
     },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'www.linkedin.com/in/inconisriccardo',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/inconis',
+    },
+    {
+      id: uuidv1(),
+      name: 'medium',
+      url: 'https://medium.com/@inconisriccardo',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
