@@ -54,7 +54,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href="https://www.linkedin.com/in/inconisriccardo"
                     >
                       Linkedin Profile
                     </a>

@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'www.linkedin.com/in/inconisriccardo', // if no resume, the button will not show up
+  resume: 'https://www.linkedin.com/in/inconisriccardo', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -45,6 +45,16 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
+  {
+    id: uuidv1(),
+    img: 'project.jpg',
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+
   {
     id: uuidv1(),
     img: 'project.jpg',
@@ -79,7 +89,7 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: 'www.linkedin.com/in/inconisriccardo',
+      url: 'https://www.linkedin.com/in/inconisriccardo',
     },
     {
       id: uuidv1(),
