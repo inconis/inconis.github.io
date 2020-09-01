@@ -29,9 +29,9 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Titolo',
+    info: 'Informazioni',
+    info2: 'Informazioni 2',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -51,8 +51,8 @@ export const projectsData = [
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://url',
+    repo: 'https://repo', // if no repo, the button will not show up
   },
 
   {
