@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    ' I`m a management engineering student at the Polytechnic University of Turin, in the north of Italy. ',
+  paragraphTwo:
+    ' I`m very passionate about technology in general, with a particular focus on servers and cloud services like Docker,  NextCloud, Odoo, OpenLiteSpeed, and many other web services.  I have a true inclination for communication and teamwork because only a group can solve problems with the best approach. ',
+  paragraphThree:
+    ' I also enjoy meeting people around the world traveling with CouchSurfing because everyone has wonderful experiences and way of life to share, taking pictures and swimming are my hobbies too. ',
   resume: 'https://www.linkedin.com/in/inconisriccardo', // if no resume, the button will not show up
 };
 
@@ -28,22 +31,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: 'Titolo',
-    info: 'Informazioni',
-    info2: 'Informazioni 2',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'mipbg.jpg',
+    title: 'MIP Business Game 2020',
+    info: 'The event is a 10-day competition in which 100 international students compete on real-life business cases',
+    info2: '',
+    url: 'https://mipbusinessgame.com/',
+    repo: '', // if no repo, the button will not show up
   },
-
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'google-certification.jpg',
+    title: 'Certification - Fundamentals of digital marketing',
+    info: 'Proud to announce my new certification in Digital Marketing fundamentals released by Google Digital Garage',
+    info2: 'Check the certificate pressing Read ',
+    url: 'https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
