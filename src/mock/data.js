@@ -9,10 +9,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hello, my name is',
-  name: 'Riccardo',
-  subtitle: "I'm a management engineering student",
-  cta: 'Read more',
+  title: '',
+  name: '',
+  subtitle: '',
+  cta: '',
 };
 
 // ABOUT DATA
@@ -29,9 +29,28 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+
   {
     id: uuidv1(),
-    img: 'mipbg.jpg',
+    img: 'SGH.jpg',
+    title: 'SGH Business Game 2020',
+    info: 'Thanks to this experience, I had the opportunity to improve my teamwork skills in a multicultural and foreign context. The event was really inspiring because I had the occasion to talk with people from every part of the world.',
+    info2: 'The challenges were provided by EY-Parthenon and Enterprise UK ',
+    url: 'https://www.facebook.com/sghbusinessgame/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'UCL-2.jpg',
+    title: 'UCL Business Game 2020',
+    info: 'Thanks to this experience, I had the opportunity to improve my teamwork skills in a multicultural and foreign context. The event was really inspiring because I had the occasion to talk with people from every part of the world.',
+    info2: 'The challenges were provided by EY-Parthenon and Enterprise UK ',
+    url: 'https://ucle.co/business-game',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'MIPBG-2.png',
     title: 'MIP Business Game 2020',
     info: 'The event is a 10-day competition in which 100 international students compete on real-life business cases',
     info2: '',
@@ -47,15 +66,7 @@ export const projectsData = [
     url: 'https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing',
     repo: '', // if no repo, the button will not show up
   },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: 'https://url',
-    repo: 'https://repo', // if no repo, the button will not show up
-  },
+  
 
   {
     id: uuidv1(),
@@ -67,6 +78,8 @@ export const projectsData = [
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
+
+
 
 // CONTACT DATA
 export const contactData = {
