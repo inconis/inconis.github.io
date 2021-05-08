@@ -29,12 +29,12 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
-
   {
     id: uuidv1(),
     img: 'SGH.jpg',
     title: 'SGH Business Game 2020',
-    info: 'Thanks to this experience, I had the opportunity to improve my teamwork skills in a multicultural and foreign context. The event was really inspiring because I had the occasion to talk with people from every part of the world.',
+    info:
+      'Thanks to this experience, I had the opportunity to improve my teamwork skills in a multicultural and foreign context. The event was really inspiring because I had the occasion to talk with people from every part of the world.',
     info2: 'The challenges were provided by EY-Parthenon and Enterprise UK ',
     url: 'https://www.facebook.com/sghbusinessgame/',
     repo: '', // if no repo, the button will not show up
@@ -43,7 +43,8 @@ export const projectsData = [
     id: uuidv1(),
     img: 'UCL-2.jpg',
     title: 'UCL Business Game 2020',
-    info: 'Thanks to this experience, I had the opportunity to improve my teamwork skills in a multicultural and foreign context. The event was really inspiring because I had the occasion to talk with people from every part of the world.',
+    info:
+      'Thanks to this experience, I had the opportunity to improve my teamwork skills in a multicultural and foreign context. The event was really inspiring because I had the occasion to talk with people from every part of the world.',
     info2: 'The challenges were provided by EY-Parthenon and Enterprise UK ',
     url: 'https://ucle.co/business-game',
     repo: '', // if no repo, the button will not show up
@@ -52,7 +53,8 @@ export const projectsData = [
     id: uuidv1(),
     img: 'MIPBG-2.png',
     title: 'MIP Business Game 2020',
-    info: 'The event is a 10-day competition in which 100 international students compete on real-life business cases',
+    info:
+      'The event is a 10-day competition in which 100 international students compete on real-life business cases',
     info2: '',
     url: 'https://mipbusinessgame.com/',
     repo: '', // if no repo, the button will not show up
@@ -61,25 +63,13 @@ export const projectsData = [
     id: uuidv1(),
     img: 'google-certification.jpg',
     title: 'Certification - Fundamentals of digital marketing',
-    info: 'Proud to announce my new certification in Digital Marketing fundamentals released by Google Digital Garage',
+    info:
+      'Proud to announce my new certification in Digital Marketing fundamentals released by Google Digital Garage',
     info2: 'Check the certificate pressing Read ',
     url: 'https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing',
     repo: '', // if no repo, the button will not show up
   },
-  
-
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
 ];
-
-
 
 // CONTACT DATA
 export const contactData = {
